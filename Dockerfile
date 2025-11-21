@@ -1,11 +1,14 @@
-FROM php:8.2-cli
+FROM php:8.2-apache
 
+# Extensiones de PHP si las necesitas
 RUN docker-php-ext-install pdo pdo_mysql
 
-WORKDIR /var/www/html
-COPY . .
+# Copiar archivos del proyecto al servidor Apache
+COPY . /var/www/html/
 
-EXPOSE 10000
+# Habilitar mod_rewrite (opcional pero útil)
+RUN a2enmod rewrite
 
-CMD ["php", "-S", "0.0.0.0:10000", "-t", ".", "index.php"]
+EXPOSE 80
 
+CMD ["apache2-foreground"]
