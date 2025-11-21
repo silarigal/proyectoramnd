@@ -87,7 +87,7 @@
             <ul class="lista-inferior lista-inferior2" role="listbox">
                 <li role="option">
                     <a href="https://www.avianca.com/co/es/" target="_self" class="text-list-footer">
-                        <span class="text-ellipsis">© Avianca S.A 2023</span>
+                        <span class="text-ellipsis">© Avianca S.A 2025</span>
                     </a> 
                     <span class="separador">&nbsp;|&nbsp;</span>
                 </li>
