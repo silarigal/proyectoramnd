@@ -87,7 +87,7 @@ function guardarVuelo(vuelo) {
     console.log("✅ sisa!!", vuelo);
     console.log("📦 Lista completa:", vuelos);
 
-    alert("✅ ✅ sisa!!");
+   
 }
 
 
