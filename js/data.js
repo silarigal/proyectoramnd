@@ -84,7 +84,7 @@ function guardarVuelo(vuelo) {
     // Guardar último vuelo
     localStorage.setItem("datosVuelo", JSON.stringify(vuelo));
 
-    console.log("✅ sisa!!", vuelo);
+   
     console.log("📦 Lista completa:", vuelos);
 
    
