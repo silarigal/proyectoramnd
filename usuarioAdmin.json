@@ -1,0 +1,22 @@
+[
+    {
+        "usuario": "admin",
+        "password": "admin123",
+        "rol": "super"
+    },
+    {
+        "usuario": "trash77",
+        "password": "1206",
+        "rol": "user"
+    },
+    {
+        "usuario": "Brunce888",
+        "password": "2408",
+        "rol": "user"
+    },
+    {
+        "usuario": "kiriku30",
+        "password": "1730",
+        "rol": "user"
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BGA",
+            "ciudad": "Bucaramanga"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "fecha": "16 Nov a 18 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BGA",
+            "ciudad": "Bucaramanga"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BGA",
+            "ciudad": "Bucaramanga"
+        },
+        "fecha": "16 Nov a 16 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BGA",
+            "ciudad": "Bucaramanga"
+        },
+        "fecha": "16 Nov a 10 Dec"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BGA",
+            "ciudad": "Bucaramanga"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 26 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 19 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 18 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 18 Nov"
+    },
+    {
+        "desde": {
+            "codigo": "BAQ",
+            "ciudad": "Barranquilla"
+        },
+        "hacia": {
+            "codigo": "BOG",
+            "ciudad": "Bogot\u00e1"
+        },
+        "fecha": "16 Nov a 18 Nov"
+    }
+]
